@@ -1,1 +1,29 @@
+body {
+    background-color: blueviolet;
+}
+h1 {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
 
+.board {
+    background-color: #9966ff;
+    height: 850px;
+    width: 850px;
+    margin: auto;
+}
+
+.starter {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main {
+    font-family: 'Work Sans', sans-serif;
+    font-size: x-large;
+}
+
+.return {
+    margin-left: 1500px;
+}

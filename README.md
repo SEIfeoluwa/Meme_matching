@@ -8,6 +8,6 @@ This game is a test of memory where one must flip cards to find matches from the
 https://www.memozor.com/memory-games/for-kids/bugs-bunny
 
 
-# Credits
+# Sources
 
-N/A
+- https://www.codecademy.com/forum_questions/55ad460dd3292f1a8200050c
