@@ -1,3 +1,7 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 body {
     background-color: blueviolet;
 }
@@ -7,10 +11,24 @@ h1 {
 }
 
 .board {
-    background-color: #9966ff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    /* background-color: #9966ff; */
     height: 850px;
     width: 850px;
     margin: auto;
+    user-select: none;
+}
+
+.box {
+    border: 1px Solid black;
+    margin: 5px;
+    background-color: #9966ff;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .starter {
@@ -26,4 +44,9 @@ h1 {
 
 .return {
     margin-left: 1500px;
+}
+
+.begin {
+    box-shadow: 10px 5px 5px #9966ff;
+    border-radius: 1rem;
 }
