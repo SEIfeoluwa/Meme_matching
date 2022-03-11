@@ -12,9 +12,9 @@ Working through this project I have realized I need to engage more with the reso
 
 [The Surge link to this project.](ifeoluwa-surprise.surge.sh)
 
-[This is an example which I based my Game from.]{https://www.memozor.com/memory-games/for-kids/bugs-bunny)
+[This is an example which I based my Game from.](https://www.memozor.com/memory-games/for-kids/bugs-bunny)
 
-
+[Link to my trello page](https://trello.com/b/7lx5kOJQ/matching-game)
 # Refrences
 
 - https://www.codecademy.com/forum_questions/55ad460dd3292f1a8200050c
