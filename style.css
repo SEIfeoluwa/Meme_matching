@@ -26,17 +26,27 @@ section {
     margin: auto;
     user-select: none;
 }
-
-.box {
+.card {
     border: 1px Solid black;
     margin: 5px;
-    background-color: #9966ff;
     border-radius: .5rem;
+    position: relative;
+    
+}
+w
+.face,.back {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 200px;
+    align-items: center; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.back {
+        background-color: #9966ff;
+        backface-visibility: hidden;
+        cursor: pointer;
+        
 }
 
 .starter {

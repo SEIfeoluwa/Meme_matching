@@ -35,12 +35,13 @@ const cardLayout = () => {
         const card = document.createElement("div");
         const face = document.createElement("img");
         const back = document.createElement("div");
+        let sec = document.querySelector("section")
         card.classList = "card";
         face.classList = "face"; 
         back.classList = "back";
         face.src = items.imgSrc;
         // connect to html
-        section.appendChild(card);
+        sec.appendChild(card);
         card.appendChild(face);
         card.appendChild(back); 
     });
