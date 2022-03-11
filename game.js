@@ -20,6 +20,8 @@ const getData = [
     { imgSrc: "https://s7.gifyu.com/images/prof-Umar.jpg"},
     { imgSrc: "https://s7.gifyu.com/images/tom.jpg"},    
 ];
+const reset = document.querySelector('.reset');
+
 //Function for Game Logic
 
 // function to randomize the cards
@@ -47,14 +49,24 @@ const cardLayout = () => {
         card.appendChild(face);
         card.appendChild(back); 
         back.appendChild(backImg);
+
+        back.addEventListener('click', (e)=> {
+            back.classList.toggle('toggleBack');    
+        })
     });
 };
 
 cardLayout();
-// Function to flip the card
-function flipCards() {
-
+// Function to test
+const test = (e) => {
+    const clickedCard = e.target;
+    console.log(clickedCard);
 }
+
+// Function to reset the game
+reset.addEventListener('click', () => {
+    
+})
 
 
 // images.forEach(function(box){

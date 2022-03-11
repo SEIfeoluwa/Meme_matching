@@ -43,17 +43,18 @@ section {
 }
 .back {
         background-color: #9966ff;
+        /* pointer-events: none; */
 }
 
 .starter {
     margin-top: 50px;
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     position: relative;
 }
 
 .main {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     font-size: x-large;
 }
 
@@ -64,4 +65,10 @@ section {
 .begin {
     box-shadow: 10px 5px 5px #9966ff;
     border-radius: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+.toggleBack {
+    visibility: hidden;
 }
