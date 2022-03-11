@@ -1,13 +1,16 @@
-*, *::after, *::before {
-    box-sizing: border-box;
-}
-
 body {
     background-color: blueviolet;
 }
 h1 {
     text-align: center;
     margin: 50px 0 50px 0;
+}
+.counter,.timer {
+    display: inline-block;
+    padding: 0 100px 0 100px;
+}
+.counter{
+    margin-left: 600px;
 }
 
 img {
@@ -43,6 +46,7 @@ section {
 }
 .back {
         background-color: #9966ff;
+        border-radius: .5rem;
         /* pointer-events: none; */
 }
 
@@ -59,9 +63,11 @@ section {
 }
 
 .return {
+    margin-left: 10px;
+}
+.reset {
     margin-left: 1500px;
 }
-
 .begin {
     box-shadow: 10px 5px 5px #9966ff;
     border-radius: 1rem;
@@ -71,4 +77,10 @@ section {
 
 .toggleBack {
     visibility: hidden;
+}
+
+#spider {
+    height: 50%;
+    width: 50%;
+    border: 2px solid #ccc;
 }

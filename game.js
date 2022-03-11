@@ -65,14 +65,9 @@ const test = (e) => {
 
 // Function to reset the game
 reset.addEventListener('click', () => {
-    
+    const back = document.querySelector(".back")
+    randomize();
+    back.classList.toggle('toggleBack');
 })
 
 
-// images.forEach(function(box){
-//     box.addEventListener('click', (e) =>{
-//         console.log(e.target);
-//         e.target.src=memeArray[index]; 
-//         // document.getElementById('img').src=memeArray[7]; 
-//     })
-// })
