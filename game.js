@@ -35,15 +35,18 @@ const cardLayout = () => {
         const card = document.createElement("div");
         const face = document.createElement("img");
         const back = document.createElement("div");
+        const backImg = document.createElement("img");
         let sec = document.querySelector("section")
         card.classList = "card";
         face.classList = "face"; 
         back.classList = "back";
         face.src = items.imgSrc;
+        backImg.src = 'https://s7.gifyu.com/images/troll.png'
         // connect to html
         sec.appendChild(card);
         card.appendChild(face);
         card.appendChild(back); 
+        back.appendChild(backImg);
     });
 };
 

@@ -31,9 +31,8 @@ section {
     margin: 5px;
     border-radius: .5rem;
     position: relative;
-    
 }
-w
+
 .face,.back {
     display: flex;
     justify-content: center;
@@ -44,9 +43,6 @@ w
 }
 .back {
         background-color: #9966ff;
-        backface-visibility: hidden;
-        cursor: pointer;
-        
 }
 
 .starter {

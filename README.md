@@ -15,7 +15,7 @@ Working through this project I have realized I need to engage more with the reso
 [This is an example which I based my Game from.]{https://www.memozor.com/memory-games/for-kids/bugs-bunny)
 
 
-# Sources
+# Refrences
 
 - https://www.codecademy.com/forum_questions/55ad460dd3292f1a8200050c
 - https://www.delftstack.com/howto/javascript/javascript-array-of-images/
