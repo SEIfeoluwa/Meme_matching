@@ -47,7 +47,6 @@ section {
 .back {
         background-color: #9966ff;
         border-radius: .5rem;
-        /* pointer-events: none; */
 }
 
 .starter {

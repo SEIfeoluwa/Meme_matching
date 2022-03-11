@@ -1,7 +1,5 @@
 // Global Variables
 
-// const boxes = document.querySelectorAll('.box');
-// const images = document.querySelectorAll('#img')
 const getData = [
     { imgSrc: "https://s7.gifyu.com/images/camera.jpg"},
     { imgSrc: "https://s7.gifyu.com/images/crying.jpg"},
@@ -66,8 +64,8 @@ const test = (e) => {
 // Function to reset the game
 reset.addEventListener('click', () => {
     const back = document.querySelector(".back")
-    randomize();
     back.classList.toggle('toggleBack');
+    return randomize();
 })
 
 
