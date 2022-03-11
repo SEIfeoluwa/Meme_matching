@@ -11,3 +11,4 @@ https://www.memozor.com/memory-games/for-kids/bugs-bunny
 # Sources
 
 - https://www.codecademy.com/forum_questions/55ad460dd3292f1a8200050c
+- https://www.delftstack.com/howto/javascript/javascript-array-of-images/
